@@ -2,7 +2,7 @@
 
 
 ### Contacts
-* Discord: 
-* E-mail: tsepoukhovdenis@gmail.com 
+* Discord:
+* E-mail: tsepoukhovdenis@gmail.com
 * Tel: +79167975967
 * Telegram
