@@ -1,5 +1,291 @@
+html {
+    height: 2500px;
+    background-color: rgb(181, 184, 187);
+}
 body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    background-color: black;
+    margin: 0px auto;
+    max-width: 1024px;
+    height: 1200px;
+}
+
+.main-header {
+   display: flex;
+   position: relative;
+}
+
+.photo-cont {
+  width: 300px;
+  height: 300px;
+  bottom: 0px;
+  top: 30px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.photo {
+    border-radius: 25px;
+}
+
+.nav-list{
+    height: 35px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.nav-list a.nav-item {
+    padding-left: 30px;
+    font-family: 'Noto Sans New Tai Lue', sans-serif;
+    font-size: 10x;
+    color:aliceblue;
+    text-decoration: none;
+    opacity: 0,5
+}
+
+.nav-list a.nav-item:hover {
+    opacity: 1;
+    color: rgb(67, 146, 216);
+}
+
+.header-name {
+    color:aliceblue;
+    position: absolute;
+    top: 70px;
+    right: 110px;
+}
+
+h2, h1, h3 {
+    text-align: center
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.junior {
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 7px;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    font-family: 'Noto Sans New Tai Lue', sans-serif;
+    height: 800px;
+}
+
+.left-bar {
+    margin-top: 40px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.ul1 {
+    color: aliceblue;
+    position: relative;
+    align-items: center;
+    font-family: 'Noto Sans New Tai Lue', sans-serif;
+    text-decoration:none;
+}
+
+
+
+h3 {
+    color: aliceblue;
+}
+
+.tel {
+    background-image:url(img/phone-call.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 30px;
+    padding-left: 35px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.mail {
+    background-image:url(img/email.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 30px;
+    padding-left: 40px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.telegram {
+    background-image:url(img/telegram.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 30px;
+    padding-left: 40px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.skype {
+    background-image:url(img/skype.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 30px;
+    padding-left: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.skill {
+    color: aliceblue;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans New Tai Lue', sans-serif;
+    margin-left: 0px;
+    margin-top: 25px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(67, 146, 216);
+    border-radius: 10px;
+}
+
+#contact {
+    margin-left: 17px;
+}
+
+.contact-bar {
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(67, 146, 216);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+p {
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.about {
+    padding-left: 30px;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.education {
+    padding-left: 30px;
+    padding-right: 10px;
+    align-items: center;
+    width: 297px;
+}
+
+.code {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.line-block {
+    display:inline-flex;
+}
+
+.bord {
+    border-bottom-style: solid;
+    border-color: rgb(67, 146, 216);
+    border-radius: 10px;
+    height: 26px;
+    width: 150px;
+    margin-left: 52px;
+}
+
+.abouth3 {
+    border-bottom-style: solid;
+    border-color: rgb(67, 146, 216);
+    border-radius: 10px;
+    height: 26px;
+    width: 150px;
+    margin-left: 210px;
+}
+
+.bord2 {
+    border-bottom-style: solid;
+    border-color: rgb(67, 146, 216);
+    border-radius: 10px;
+    height: 26px;
+    width: 170px;
+    margin-left: 50px;
+}
+
+.footer {
+   height: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: aliceblue;
+}
+
+.mygitlogo {
+    display: flex;
+    margin-left: 10px;
+}
+
+.mygit {
+    font-family: 'Noto Sans New Tai Lue', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    height: 31px;
+    margin-top: 30px;
+}
+
+.rs {
+    margin-right: 10px;
+}
+
+.year {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.setTimeout {
+    color: forestgreen;
+}
+
+.next1 {
+    color: yellow;
+}
+
+.next2 {
+    color: purple;
+}
+
+.next3 {
+    color: blue;
+}
+
+.next4 {
+    color: purple;
+}
+
+.console {
+    color:rgb(85, 85, 240);
+}
+
+.log {
+    color: rgb(238, 238, 61);
+}
+
+.right-bar {
+    margin-top: 37px;
 }
