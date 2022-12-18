@@ -15,6 +15,3 @@ I am 29 years old, I work as a system administrator. I want to become a front-en
 * Figma
 * GitHub
 
-### Languages
-* Russian - Native
-* English - A1
